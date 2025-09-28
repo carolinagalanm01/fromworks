@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Paquetes de Cursos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: blue;
+    }
+    .course-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .course-card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 250px;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+    .course-card h3 {
+      color: #007BFF;
+    }
+    .course-card p {
+      font-size: 14px;
+    }
+    .enroll-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .enroll-btn:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Paquetes de Cursos</h1>
+
+  <div class="course-container">
+    <div class="course-card">
+      <h3>Curso Básico de HTML</h3>
+      <p>Aprende los fundamentos de HTML y cómo estructurar páginas web.</p>
+      <a href="#" class="enroll-btn">Inscribirse</a>
+    </div>
+
+    <div class="course-card">
+      <h3>Curso Intermedio de CSS</h3>
+      <p>Domina estilos, flexbox, grid y diseño responsivo.</p>
+      <a href="#" class="enroll-btn">Inscribirse</a>
+    </div>
+
+    <div class="course-card">
+      <h3>Curso de JavaScript</h3>
+      <p>Aprende a programar interactividad y dinámicas en páginas web.</p>
+      <a href="#" class="enroll-btn">Inscribirse</a>
+    </div>
+
+    <div class="course-card">
+      <h3>Frameworks Frontend</h3>
+      <p>Aprende React, Angular y Vue para crear aplicaciones modernas.</p>
+      <a href="#" class="enroll-btn">Inscribirse</a>
+    </div>
+  </div>
+
+</body>
+</html>
